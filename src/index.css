@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #f8d1be;
+  margin: 0;
+  font-family: Alegreya, serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.fade-in {
+  animation: fade 0.9s ease-in;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+}
